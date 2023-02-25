@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+
+.img {
+    filter: brightness(0.3); /* 50% de brillo */
+}
+
+.contenedor {
+    position: relative;
+    display: grid;
+    place-content: center;
+    place-items: center;
+}
+
+.form-login {
+    background-color: rgba(255, 255, 255, 0.692);
+    position: absolute;
+    border-radius: 16px;
+    padding: 1.5rem;
+    width: 450px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input {
+    background-color: #373333c0;
+    color: white;
+    margin: 5px;
+    width: 400px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    text-indent: 10px
+}
+
+.input:focus {
+    background-color: rgba(255, 255, 255, 0.858);
+    color: black;
+    outline: none; 
+    border: 1.8px solid black;
+}
+
+.input::placeholder {
+    color: white;
+    padding-left: 0.1rem;    
+    font-size: 18px;
+}
+
+
+.titulo {
+    margin-top: 16px;
+    margin-bottom: 30px;
+    font-size: 4rem;
+}
+
+.button-login {
+    background-color: rgba(1, 1, 255, 0.875);
+    color: white;
+    width: 400px;
+    height: 55px;
+    margin-top: 14px;
+    border: none;
+    border-radius: 16px;
+    font-size: 2.2rem;
+}
+
+.button-login:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.container-password:hover {
+    cursor: pointer;
+    opacity: 80%;
+}
+
+.container-password {
+    font-size: 1.2rem;
+    margin-top: 20px;
+}
+
+a {
+    color: black ;
+}
+
+.final {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    width: 450px;
+    margin-top: 20px;
+}
+.parrafo {
+    font-size: 1.1rem;
+}
+
+.register { 
+    margin-left: 125px;
+    font-size: 1.1rem;
+    color: blue;
+}
+
+#error-message {
+    color: red;
+    font-size: 0.8em;
+    margin-top: 10px;
+  }
+  
+
